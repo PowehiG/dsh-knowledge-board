@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="kb-a" x1="10" y1="8" x2="54" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22d3ee"/>
+      <stop offset=".55" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="kb-b" x1="20" y1="40" x2="50" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f472b6" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#f59e0b" stop-opacity=".85"/>
+    </linearGradient>
+  </defs>
+  <rect x="7" y="7" width="50" height="50" rx="15" fill="url(#kb-a)" opacity=".13"/>
+  <rect x="7.75" y="7.75" width="48.5" height="48.5" rx="14.25" stroke="url(#kb-a)" stroke-opacity=".5" stroke-width="1.5"/>
+  <rect x="18" y="19" width="28" height="8.5" rx="4.25" fill="url(#kb-a)" opacity=".9"/>
+  <rect x="15" y="30" width="34" height="8.5" rx="4.25" fill="url(#kb-a)" opacity=".55"/>
+  <rect x="12" y="41" width="40" height="8.5" rx="4.25" fill="url(#kb-b)" opacity=".55"/>
+  <circle cx="45.5" cy="45.2" r="3" fill="#fff" opacity=".92"/>
+  <circle cx="21" cy="23.2" r="2.2" fill="#fff" opacity=".85"/>
+</svg>

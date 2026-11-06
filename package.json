@@ -1,0 +1,39 @@
+{
+  "name": "dsh-knowledge-board",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Knowledge OS: a DSH plugin dashboard for Obsidian, Notion, Feishu docs and Dida365 tasks, with stats, storage map, preview and deep links.",
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./host.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "host.js",
+    "client.js",
+    "demo.js",
+    "connectors.js",
+    "cordis.patch.yml",
+    "build.mjs",
+    "icon.svg",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-sidebar",
+        "@deepseek-ai/dsh-client-ui-layout"
+      ]
+    }
+  },
+  "license": "MIT"
+}
