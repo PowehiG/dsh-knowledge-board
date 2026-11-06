@@ -35,5 +35,13 @@
       ]
     }
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PowehiG/dsh-knowledge-board.git"
+  },
+  "homepage": "https://github.com/PowehiG/dsh-knowledge-board#readme",
+  "bugs": {
+    "url": "https://github.com/PowehiG/dsh-knowledge-board/issues"
+  }
 }
